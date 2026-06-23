@@ -3862,7 +3862,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "IC-18009"
+			(property "PROD_ID" "IC-28800"
 				(at 0 -19.05 0)
 				(effects
 					(font
@@ -6588,7 +6588,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-18009"
+		(property "PROD_ID" "IC-28800"
 			(at 85.09 71.12 0)
 			(effects
 				(font

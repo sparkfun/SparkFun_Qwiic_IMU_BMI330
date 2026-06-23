@@ -137,8 +137,8 @@
 	(net 6 "unconnected-(J2-NC-PadNC1)")
 	(net 7 "unconnected-(J2-NC-PadNC2)")
 	(net 8 "Net-(JP1-A)")
-	(net 9 "POCI")
-	(net 10 "CSB")
+	(net 9 "SDO{slash}POCI")
+	(net 10 "~{CS}")
 	(net 11 "INT1")
 	(net 12 "INT2")
 	(net 13 "Net-(JP4-C)")
@@ -652,7 +652,7 @@
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
 			(zone_layer_connections)
-			(net 9 "POCI")
+			(net 9 "SDO{slash}POCI")
 			(pinfunction "Pin_5")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
@@ -666,7 +666,7 @@
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
 			(zone_layer_connections)
-			(net 10 "CSB")
+			(net 10 "~{CS}")
 			(pinfunction "Pin_6")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
@@ -2849,7 +2849,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "IC-18009"
+		(property "PROD_ID" "IC-28800"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3101,7 +3101,7 @@
 			(at -1.175 -0.75 180)
 			(size 0.45 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 9 "POCI")
+			(net 9 "SDO{slash}POCI")
 			(pinfunction "SDO")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 0)
@@ -3211,7 +3211,7 @@
 			(at 0.5 -0.925 270)
 			(size 0.45 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 10 "CSB")
+			(net 10 "~{CS}")
 			(pinfunction "~{CS}")
 			(pintype "bidirectional")
 			(thermal_bridge_angle 0)
@@ -6586,7 +6586,7 @@
 			(at 0 0 90)
 			(size 0.6604 1.27)
 			(layers "B.Cu" "B.Mask")
-			(net 9 "POCI")
+			(net 9 "SDO{slash}POCI")
 			(pinfunction "B")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
@@ -8012,6 +8012,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -8024,6 +8025,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9203,6 +9205,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9215,6 +9218,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9876,6 +9880,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9888,6 +9893,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -10205,7 +10211,7 @@
 				(justify top mirror)
 			)
 		)
-		(property "Value" "CSB"
+		(property "Value" "~{CS}"
 			(at 0 -1.143 90)
 			(layer "B.Fab")
 			(uuid "d6847302-9d77-4cfd-8160-b5747cd262ff")
@@ -10375,7 +10381,7 @@
 			(at -0.5207 0 90)
 			(size 0.6604 1.27)
 			(layers "B.Cu" "B.Mask")
-			(net 10 "CSB")
+			(net 10 "~{CS}")
 			(pinfunction "A")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
@@ -10884,7 +10890,7 @@
 		(layer "Edge.Cuts")
 		(uuid "8eae2629-b3b9-46da-8360-700b2a58a511")
 	)
-	(gr_text "v01"
+	(gr_text "v10"
 		(at 124.264 92.391 270)
 		(layer "B.Cu" knockout)
 		(uuid "3c322aac-72fa-464e-a60f-a1d3fef083b6")
