@@ -1,0 +1,14 @@
+2026-08-12 12:51:46,590 - root - INFO - Running Panelizer
+2026-08-12 12:51:46,590 - root - INFO - ['--panelx', '139.700000', '--panely', '190.500000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000', '--norightgap', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialslr']
+2026-08-12 12:51:46,606 - root - INFO - PANELIZER START: 2026-08-12T12:51:46.606723
+2026-08-12 12:51:51,375 - root - INFO - 
+START: 2026-08-12T12:51:46.606723
+Board saved by user.
+Zones filled by Panelizer.
+
+Board: C:\Users\geoff.mcintyre\Documents\GitHub\Hardware\SparkFun_Qwiic_IMU_BMI330\Hardware\Production\SparkFun_Qwiic_IMU_BMI330_panelized.kicad_pcb
+Board dimensions: 25.40 x 25.40 mm.
+You can fit 5 x 7 boards on the panel.
+Zones refilled by Panelizer.
+
+2026-08-12 12:51:53,290 - root - INFO - Panelizer complete
