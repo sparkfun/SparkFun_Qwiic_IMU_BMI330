@@ -11,6 +11,7 @@ Since this is a Qwiic breakout, assembly is just two simple steps.
 * Connect the BMI330 breakout to the RedBoard IoT with a Qwiic cable.
 * Connect the RedBoard IoT - RP2350 to a computer over USB-C
 
+![Photo of completed Qwiic circuit with a RedBoard IoT](/img/QwiicBMI330-Assembly.jpg)
 
 ## Arduino Example - Basic Readings
 
@@ -21,6 +22,6 @@ Since this is a Qwiic breakout, assembly is just two simple steps.
 
 The code initializes the sensor and sets the accelerometer and gryoscope ranges to &plusmn;4g and &plusmn;500&deg;/s, respectively, to work with general handheld motion. After the sensor initializes, the code prints out values for the x, y and z axes for both sensors every 100ms. Now all that data streaming by can be a bit hard to interpret. Try opening the [serial plotter]() for a better visualization of the data from the BMI330. Having all six values printed out simultaneously can be a bit busy but thankfully the plotter lets us select which values to plot so you can separate it into acceleration data (values 1-3) and gyroscope data (values 4-6) to get a clearer picture of the motion sensed by each like the screenshots below:
 
-![Screenshot of serial plotter data from the accelerometer]()
+![Screenshot of serial plotter data from the accelerometer](/img/BMI330_Ex1A.png)
 
-![Screenshot of serial plotter data from gycrosope]()
+![Screenshot of serial plotter data from gycrosope](/img/BMI330_Ex1G.png)

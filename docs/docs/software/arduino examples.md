@@ -8,7 +8,7 @@ The first example shows how to get acceleration, angular rate and temperature da
 
 Select your Board and Port and click the "Upload" button. After the code finishes uploading, open the [serial monitor](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/) with the baud set to **115200** and you should see values for the x, y and z axes for both sensors print out every 100ms. Try shaking and tilting the sensor and you should see the values change. For a more visual representation of the data, try opening the serial plotter and moving the sensor. With six lines of data, it may be a bit busy so try disabling a few values (1-3 are accelerometer data, 4-6 are gyroscope data) for a clearer picture of the measured motion. The screenshot below shows a few seconds of gyroscope data while rotating the sensor:
 
-![Screenshot of gyroscope data from Example 1]()
+![Screenshot of gyroscope data from Example 1](/img/BMI330_Ex1G.png)
 
 ## Example 03 - Configuration
 
