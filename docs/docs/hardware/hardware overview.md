@@ -24,7 +24,7 @@ The sole LED on the board is a red power status LED to indicate when the board h
 
 ## Solder Jumpers
 
-This Qwiic breakout has four solder jumpers labeled <b>LED</b>, <b>CS</b>, <b>SDO/POCI</b> and <b>I</sup>2</sup>C</b>. The list below outlines their functionality, default states and any notes on their uses.
+This Qwiic breakout has four solder jumpers labeled <b>LED</b>, <b>CS</b>, <b>SDO/POCI</b> and <b>I<sup>2</sup>C</b>. The list below outlines their functionality, default states and any notes on their uses.
 
 * **LED** - The LED jumper completes the power LED circuit and is CLOSED by default. Open this jumper to disable the power LED.
 * **CS** - The CS jumper controls the default state of the Chip Select pin on the board, either pulled HIGH or Floating. This solder jumper is CLOSED by default to pull CS HIGH and enable I<sup>2</sup>C. Open this jumper to use the CS pin for SPI communication on the BMI330.
