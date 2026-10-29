@@ -14,12 +14,6 @@ In order to follow along with this guide, you'll need the 6DoF IMU - BMI330 (Qwi
 * [Qwiic Cable](https://www.sparkfun.com/flexible-qwiic-cable-100mm.html)
 * [USB-C Cable](https://www.sparkfun.com/usb-c-to-usb-c-cable-1-meter-flexible-silicone.html)
 
-**Optional Quick Start Materials**
-
-* [IC Hooks](https://www.sparkfun.com/ic-hook-with-pigtail.html) (The Quick Start Guide uses IC Hooks to create a temporary prototyping connection to an Interrupt pin)
-
-The Quick Start guide uses the IC Hooks linked above for a quick prototyping circuit but if you'd like to use the interrupt pins in a permanent installation of this breakout, we recommend soldering to them. If you need a soldering iron, solder or other soldering supplies, you can find them in our [soldering category](https://www.sparkfun.com/tools/soldering.html).
-
 ## Topics Covered
 
 This document contains three main sections: **Quick Start Guide**, **Hardware** and **Software**.
